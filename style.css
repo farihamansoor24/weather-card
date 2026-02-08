@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+.season{
+    width: 100vw;
+    height: 100vh;
+    transition: background 0.6s ease;
+}
+.summer{
+    /* background: linear-gradient(rgba(255,153,0,0.6), rgba(255,235,59,0.6)), url('./summer-season-background.jpg') center/cover no-repeat; */
+    background: url('./summer-season-background.jpg') center/cover no-repeat;
+    background-size: cover;
+}
+.winter{
+    background: url('./winter-bg-image.gif') no-repeat center/cover  ;
+}
+.rainy{
+    background: url('./rain-season-background.gif') no-repeat center/cover  ;
+}
+.spring{
+    background: url('./spring-season-bg.jpeg') no-repeat center/cover  ;
+}
+.autumn{
+    background: url('./autumn-seaon-background.gif') no-repeat center/cover  ;
+}
+.season-card {
+  width: 320px;
+  height: 450px;
+  padding: 25px 20px;
+  text-align: center;
+  border-radius: 20px;
+
+  /* Glassmorphism effect */
+  background: rgba(180, 180, 180, 0.25);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+  animation: fadeIn 0.8s ease;
+}
+
+/* Season image */
+.season-card img {
+  width: 250px;
+  height: 200px;
+  margin: 15px auto;
+  /* display: block; */
+}
+
+/* Description text */
+.season-card p {
+  font-size: 15px;
+  color: #f5f5f5;
+  line-height: 1.6;
+}
+
+/* Smooth animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/*  Mobile responsive */
+@media (max-width: 480px) {
+  .season-card {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .season-card h2 {
+    font-size: 22px;
+  }
+
+  .season-card img {
+    width: 110px;
+  }
+}
