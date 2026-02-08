@@ -14,9 +14,9 @@ if(season === 'summer'){
 }
 else if(season === 'winter'){
  document.writeln(`
-    <div class="winter season d-flex justify-content-center align-items-center">
+     <div class="winter season d-flex justify-content-center align-items-center">
     <div class="card season-card">
-      <img src="./winter-card.gif" class="card-img-top img-fluid" alt="summer card">
+      <img src="./winter-season-card.gif" class="card-img-top img-fluid" alt="summer card">
       <div class="card-body">
         <h5 class="card-title fs-4 mb-2 text-white">Winter Season Card</h5>
         <p class="card-text">Winter is a cold season with chilly weather and cool winds.</p>
