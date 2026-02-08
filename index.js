@@ -56,7 +56,7 @@ else if(season === 'autumn'){
  document.writeln(`
     <div class="autumn season d-flex justify-content-center align-items-center">
     <div class="card season-card">
-      <img src="./autumn-card1.webp" class="card-img-top img-fluid" alt="summer card">
+      <img src="./autumn-card.gif" class="card-img-top img-fluid" alt="summer card">
       <div class="card-body">
         <h5 class="card-title fs-4 mb-2 text-white">Autumn Season Card 🍁๋࣭</h5>
         <p class="card-text">Autumn is marked by falling leaves, cooler temperatures, and a calm atmosphere.</p>
